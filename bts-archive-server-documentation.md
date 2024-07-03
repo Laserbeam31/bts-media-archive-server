@@ -3,8 +3,8 @@ BTS Archive Server Documentation
 
 The archive server is a virtual machine (VM) running on the DDaT-provided SU server on campus. 
 This VM acts as a high-capacity network-attached storage medium, intended for use as a video/audio
-archive, because such files are too big to transfer easily onto cloud services such as the BTS
-GSuite.
+archive for Backstage, because such files are too big to transfer easily onto cloud services such 
+as the BTS GSuite.
 
 The archive server may only be accessed from on campus (i.e. on devices connected to Eduroam/
 Docking) or via the University VPN.
