@@ -41,11 +41,14 @@ etc.). Once the URL is entered, the user is prompted to enter the username and p
 Server details:
 ---------------
 
-The archive server VM is an LXC container running on the aforementioned SU server. This VM runs
-the _Samba_ software, which allows Linux folder(s) to be shared to Windows (or Windows-
-compatible) computers by means of the well-established _SMB_ protocol.
+The archive server VM is implemented as a Ubuntu LXC container running on the aforementioned 
+SU server. This VM runs the _Samba_ software, which allows Linux folder(s) to be shared to 
+Windows (or Windows-compatible) computers by means of the well-established _SMB_ protocol.
 
 To access the server VM, use SSH from Eduroam (or Docking) with the following credentials:
 
 - Username: `su2bc`
 - Password: `[REDACTED]`
+
+Upon successful login, one is greeted with a regular Bash shell, from which administrative
+commands may be run.
