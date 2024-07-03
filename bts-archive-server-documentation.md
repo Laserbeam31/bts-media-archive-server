@@ -20,6 +20,11 @@ server access details are as follows:
 How to connect:
 ---------------
 
+Unlike a cloud service such as Google Drive, the shared drive on the archive server is "mapped"
+directly into the computer's file manager. This means that, in effect, it appears to the
+computer as a USB stick or hard drive. For large files, this is particularly advantageous as it
+mitigates the need to upload/download large volumes of data through a web browser.
+
 The "URL" format used to map the network drive is slightly different depending on the computer's
 operating system. The URL includes one or more of the above details (IP address, share name, 
 etc.). Once the URL is entered, the user is prompted to enter the username and password.
